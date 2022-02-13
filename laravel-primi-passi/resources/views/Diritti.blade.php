@@ -1,0 +1,3 @@
+<h3>Il copyright (termine di lingua inglese che letteralmente significa "diritto di copia") è un termine che identifica il diritto d'autore nei paesi di common law, dal quale però differisce sotto vari aspetti. Ciononostante, il termine viene comunemente usato anche per indicare genericamente la normativa sul diritto d'autore degli ordinamenti di civil law.
+
+È solitamente abbreviato con il simbolo ©. Quando tale simbolo non è utilizzabile si riproduce con la lettera "c" posta tra parentesi: (c) o (C).[1] In base alla Convenzione di Berna è stata introdotta la regola della durata più breve.</h3>

@@ -27,5 +27,17 @@ Inizialmente stampiamo un Hello World, poi passiamo dei dati alla view in modo d
     </ul>
     @endif
 
+{{-- 
+Bonus:
+Creiamo più di una pagina e visualizziamo un header menu con i link di tutte le pagine, utilizzando la funzione route()
+--}}
+    <header>
+        <ul>
+            <li><a href="{{ route('contact') }}">Contatti</a></li>
+            <li><a href="{{ route('copyright') }}">Diritti</a></li>
+            <li><a href="{{ route('story') }}">Chi siamo</a></li>
+        </ul>
+    </header>
+
 </body>
 </html>

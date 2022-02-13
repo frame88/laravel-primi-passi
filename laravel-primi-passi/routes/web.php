@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-
+    
     $data = [
         'name' => 'mangiafuoco',
         'lastname' => 'pinocchio',
@@ -26,6 +26,20 @@ Route::get('/', function () {
             'legnoso', 'bugiardo', 'nasone'
             ]
         ];
+        
+        return view('home', $data);
+    });
+    
+ Route::get('/Contatti', function () {
+        return view('contatti');
+ })->name('contact');
 
-    return view('home', $data);
-});
+ Route::get('/Diritti', function () {
+        return view('Diritti');
+ })->name('copyright');
+
+ Route::get('/Chi siamo', function () {
+        return view('Chi siamo');
+ })->name('story');
+
+
