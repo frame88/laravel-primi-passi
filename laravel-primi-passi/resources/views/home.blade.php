@@ -14,5 +14,18 @@ Inizialmente stampiamo un Hello World, poi passiamo dei dati alla view in modo d
 --}}
 
     <h1>Main page</h1>
+
+    <h2>ciao {{ $name }} {{ $lastname}}</h2>
+    <span>le skills di pinocchio sono:</span>
+    {{-- ma se non ci fosse piu improvvisamente sckills --}}
+    @if(isset($skills))
+    {{-- aggiungo questo isset che controlla che skills esista --}}
+    <ul>
+        @foreach ($skills as $skill)
+            <li>{{ $skill }}</li>
+        @endforeach
+    </ul>
+    @endif
+
 </body>
 </html>
